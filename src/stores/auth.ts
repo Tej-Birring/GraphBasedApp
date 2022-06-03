@@ -1,7 +1,7 @@
 import { defineStore } from 'pinia'
 
-export const useCounterStore = defineStore({
-  id: 'user',
+export const useAuthStore = defineStore({
+  id: 'auth',
   state: () => ({
     token: null
   }),
